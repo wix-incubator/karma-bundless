@@ -37,7 +37,7 @@
     "typings": "0.7.12"
   },
   "dependencies": {
-    "bundless": "0.0.11",
+    "bundless": "0.0.13",
     "glob": "7.0.3"
   }
 }
