@@ -1,0 +1,1 @@
+projectMap.packages['remapped-chai'] = projectMap.packages['chai'];

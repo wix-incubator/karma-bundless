@@ -19,6 +19,9 @@ module.exports = function(config) {
       specs: [
         './test/e2e.spec.js'
       ],
+      scripts: [
+          'http://localhost:4000/modules/test/e2e.overrides.js'
+      ],
       server: {
         port: 4000,
         forceHttp1: true,
