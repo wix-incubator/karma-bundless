@@ -2,7 +2,7 @@
   "name": "karma-bundless",
   "version": "0.0.0",
   "description": "Experimental karma plugin for no less experimental dependency loader",
-  "main": "./index.js",
+  "main": "./lib/plugin.js",
   "author": "Jiri Tobisek <jiri@wix.com> (https://github.com/tobich)",
   "license": "SEE LICENSE IN LICENSE.md",
   "private": false,
@@ -10,31 +10,26 @@
     "test": "test"
   },
   "scripts": {
+    "build": ":",
     "test": "karma start --single-run"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/wix/bundless"
+    "url": "https://github.com/wix/karma-bundless"
   },
   "bugs": {
-    "url": "https://github.com/wix/bundless/issues"
+    "url": "https://github.com/wix/karma-bundless/issues"
   },
-  "homepage": "https://github.com/wix/bundless",
+  "homepage": "https://github.com/wix/karma-bundless",
   "devDependencies": {
     "chai": "3.5.0",
-    "fs-extra": "^0.26.7",
     "karma": "0.13.22",
     "karma-chrome-launcher": "0.2.3",
-    "karma-jasmine": "^1.0.2",
+    "karma-jasmine": "1.0.2",
     "karma-mocha": "0.2.2",
     "karma-teamcity-reporter": "0.2.2",
     "mocha": "2.4.5",
-    "mocha-env-reporter": "1.0.2",
-    "mocha-loader": "0.7.1",
-    "source-map-support": "0.4.0",
-    "tmp": "0.0.28",
-    "typescript": "1.8.9",
-    "typings": "0.7.12"
+    "mocha-env-reporter": "1.0.2"
   },
   "dependencies": {
     "bundless": "0.0.13",
