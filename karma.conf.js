@@ -13,7 +13,7 @@ module.exports = function(config) {
 
     // frameworks to use
     // available frameworks: https://npmjs.org/browse/keyword/karma-adapter
-    frameworks: ['bundless', 'mocha'],
+    frameworks: ['mocha', 'bundless'],
 
     bundless: {
       specs: [
@@ -28,6 +28,15 @@ module.exports = function(config) {
         srcDir: '.'
       }
     },
+
+    client: {
+      mocha: {
+        reporter: 'html', // change Karma's debug.html to the mocha web reporter
+        ui: 'bdd'
+      }
+    },
+
+
 
 
     // list of files / patterns to load in the browser
@@ -80,5 +89,5 @@ module.exports = function(config) {
     // Concurrency level
     // how many browser should be started simultaneous
     concurrency: Infinity
-  })
+  });
 }
