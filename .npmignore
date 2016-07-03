@@ -3,3 +3,4 @@ dist/test-kit
 src/
 test/
 test-kit/
+tmp/
