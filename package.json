@@ -23,6 +23,7 @@
   "homepage": "https://github.com/wix/karma-bundless",
   "devDependencies": {
     "chai": "3.5.0",
+    "express": "^4.14.0",
     "fs-extra": "0.26.7",
     "karma": "0.13.22",
     "karma-chrome-launcher": "0.2.3",
@@ -33,7 +34,9 @@
     "mocha-env-reporter": "1.0.2"
   },
   "dependencies": {
-    "bundless": "0.0.13",
-    "glob": "7.0.3"
+    "bundless": "0.0.27",
+    "cors": "^2.7.1",
+    "glob": "7.0.3",
+    "lodash": "^4.13.1"
   }
 }
