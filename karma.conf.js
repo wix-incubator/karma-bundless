@@ -20,14 +20,15 @@ module.exports = function(config) {
         './test/e2e.spec.js'
       ],
       scripts: [
-          'http://localhost:4000/modules/test/e2e.overrides.js'
+        'http://localhost:4005/modules/test/e2e.overrides.js'
       ],
+      srcDir: '.',
       server: {
-        port: 4000,
-        forceHttp1: true,
-        srcDir: '.'
+        port: 4005
       }
     },
+
+
 
     client: {
       mocha: {
@@ -70,7 +71,7 @@ module.exports = function(config) {
 
     // level of logging
     // possible values: config.LOG_DISABLE || config.LOG_ERROR || config.LOG_WARN || config.LOG_INFO || config.LOG_DEBUG
-    logLevel: config.LOG_INFO,
+    logLevel: config.LOG_DEBUG,
 
 
     // enable / disable watching file and executing tests whenever any file changes
