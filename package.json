@@ -1,6 +1,6 @@
 {
   "name": "karma-bundless",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Experimental karma plugin for no less experimental dependency loader",
   "main": "./lib/plugin.js",
   "author": "Jiri Tobisek <jiri@wix.com> (https://github.com/tobich)",
@@ -35,7 +35,7 @@
     "mocha-env-reporter": "1.0.2"
   },
   "dependencies": {
-    "bundless": "0.0.28",
+    "bundless": "0.0.29",
     "cors": "^2.7.1",
     "glob": "7.0.3",
     "lodash": "4.13.1"
