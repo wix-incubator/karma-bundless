@@ -1,6 +1,6 @@
 {
   "name": "karma-bundless",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Experimental karma plugin for no less experimental dependency loader",
   "main": "./lib/plugin.js",
   "author": "Jiri Tobisek <jiri@wix.com> (https://github.com/tobich)",
