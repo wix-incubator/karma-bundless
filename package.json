@@ -30,7 +30,8 @@
     "karma-env-reporter": "1.0.4",
     "karma-mocha": "1.1.1",
     "mocha": "2.5.3",
-    "mocha-env-reporter": "1.0.2"
+    "mocha-env-reporter": "1.0.2",
+    "npminject": "1.0.22"
   },
   "dependencies": {
     "bundless": "0.0.47",
