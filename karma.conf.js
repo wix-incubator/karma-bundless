@@ -9,7 +9,7 @@ module.exports = function(config) {
     // base path that will be used to resolve all patterns (eg. files, exclude)
     basePath: '',
 
-    plugins: [bundless, 'karma-mocha', 'karma-chrome-launcher'],
+    plugins: [bundless, 'karma-mocha', 'karma-chrome-launcher', 'karma-env-reporter'],
 
     // frameworks to use
     // available frameworks: https://npmjs.org/browse/keyword/karma-adapter
