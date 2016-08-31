@@ -1,6 +1,6 @@
 {
   "name": "karma-bundless",
-  "version": "0.0.30",
+  "version": "0.0.31",
   "description": "Experimental karma plugin for no less experimental dependency loader",
   "main": "./lib/plugin.js",
   "author": "Jiri Tobisek <jiri@wix.com> (https://github.com/tobich)",
@@ -31,7 +31,7 @@
     "karma-mocha": "1.1.1",
     "mocha": "2.5.3",
     "mocha-env-reporter": "1.0.2",
-    "npminject": "1.0.27"
+    "npminject": "1.0.28"
   },
   "dependencies": {
     "bundless": "0.0.49",
