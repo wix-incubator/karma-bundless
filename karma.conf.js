@@ -1,6 +1,10 @@
 // Karma configuration
 // Generated on Sun May 29 2016 10:35:40 GMT+0300 (IDT)
 
+var portRangeStart = process.env['CORE3_PORT_RANGE_START'];
+var karmaPort = portRangeStart ? parseInt(portRangeStart) + 3: 9876;
+var bundlessPort = portRangeStart ? parseInt(portRangeStart) + 5: 4000;
+
 var bundless = require('./lib/plugin');
 
 module.exports = function(config) {
@@ -20,11 +24,11 @@ module.exports = function(config) {
         './test/e2e.spec.js'
       ],
       scripts: [
-        'http://localhost:4005/modules/test/e2e.overrides.js'
+        'http://localhost:' + bundlessPort + '/modules/test/e2e.overrides.js'
       ],
       srcDir: '.',
       server: {
-        port: 4005
+        port: bundlessPort
       }
     },
 
@@ -62,7 +66,7 @@ module.exports = function(config) {
 
 
     // web server port
-    port: 9876,
+    port: karmaPort,
 
 
     // enable / disable colors in the output (reporters and logs)
