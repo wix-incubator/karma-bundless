@@ -93,7 +93,7 @@ module.exports = function(config) {
 
     // Concurrency level
     // how many browser should be started simultaneous
-    concurrency: Infinity,
+    concurrency: 1,
     
     browserNoActivityTimeout: 1000000    
 
